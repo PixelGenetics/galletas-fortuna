@@ -22,16 +22,16 @@ function App() {
     console.log('frase',frase)
   }
   return (
-    <>
-    <div className='galleta1'>
-      <div className='galleta2'>
-          <h2>GALLETAS DE LA FORTUNA</h2>
-          <p>{frase.phrase}</p>
+    <div className='app'>
+      <div className='container'>
+          <h1>GALLETAS DE LA FORTUNA</h1>
           <button onClick={obtenerFraseAleatoria}>Ver otro</button>
-          <p>Fuente: {frase.author}</p>
+          <div className='phraseAuthor'>
+            <p >{frase.phrase}</p>
+            <p >Fuente: {frase.author}</p>
+          </div>
         </div>
     </div>
-    </>
   )
 }
 
