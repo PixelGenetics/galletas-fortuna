@@ -6,6 +6,9 @@
   body{
     background-color: black;
     color: white;
+    padding: 0;
+    margin: 0;
+
   }
 
   button{
@@ -29,7 +32,7 @@
   }
 
   .phraseAuthor{
-    min-height: 65vh;
+    /* min-height: 65vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,21 +43,41 @@
     text-shadow: 2px 2px 0 #EEA556, -2px -2px 0 #EEA556, 2px 2px 0 #EEA556, 2px -2px 0 #EEA556;
   }
 
-  p{
+  .author{
+    background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
-    background-color: #fff9;
     color: black;
+    padding: 30px;
+    background-color: #fff9;    
     padding: 15px;
     border-radius: 15px;
   }
 
-  /* .app{
+  .phraseAuthor .imagen{
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .phraseAuthor .imagen img{
+    width: 100%;
+    height: fit-content;
+  }
+
+  .phraseAuthor .imagen p{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 5px;
+  }
+
+  .app{
     min-height: 100vh;
-    background-image: url('../src/assets/fondo1.jpg');
     background-position: center;
     background-size: cover;
   }
-   */
 
 
 
